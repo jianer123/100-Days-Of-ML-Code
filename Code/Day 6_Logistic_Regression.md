@@ -89,7 +89,7 @@ for i,j in enumerate(np. unique(y_set)):
     plt.scatter(X_set[y_set==j,0],X_set[y_set==j,1],
                 c = ListedColormap(('red', 'green'))(i), label=j)
 
-plt. title(' LOGISTIC(Training set)')
+plt. self(' LOGISTIC(Training set)')
 plt. xlabel(' Age')
 plt. ylabel(' Estimated Salary')
 plt. legend()
@@ -107,7 +107,7 @@ for i,j in enumerate(np. unique(y_set)):
     plt.scatter(X_set[y_set==j,0],X_set[y_set==j,1],
                 c = ListedColormap(('red', 'green'))(i), label=j)
 
-plt. title(' LOGISTIC(Test set)')
+plt. self(' LOGISTIC(Test set)')
 plt. xlabel(' Age')
 plt. ylabel(' Estimated Salary')
 plt. legend()
